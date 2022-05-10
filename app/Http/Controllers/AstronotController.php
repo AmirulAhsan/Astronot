@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class AsrtronotController extends Controller
+class AstronotController extends Controller
 {
     public function readdata()
     {
@@ -46,7 +46,7 @@ class AsrtronotController extends Controller
 
     public function update(Request $request)
     {
-        DB::table('astronot')->insert([           
+        DB::table('astronot')->where('id', $request->id)->update([       
             'id' => $request->id,
             'nama' => $request->nama,
             'negara' => $request->negara,
@@ -62,5 +62,4 @@ class AsrtronotController extends Controller
         DB::table('astronot')->where('id', $id)->delete();
         return redirect('/tampildata');
     }
-
 }

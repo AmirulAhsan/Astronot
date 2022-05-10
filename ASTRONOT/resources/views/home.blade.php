@@ -27,8 +27,11 @@
           </div>
         </div>
       </nav>
-
-    <h2>Project UAS lab PBW B</h2> 
+      <center>    
+        <h2>Project UAS lab PBW B</h2> 
+        <h3>Data beberapa astronot</h3>
+        <h3>Amirul Ahsan 2008107010061</h3>
+      </center>
     <link rel="stylesheet" href="/Css/template_project.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

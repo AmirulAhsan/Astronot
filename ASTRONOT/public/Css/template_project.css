@@ -1,7 +1,9 @@
 body{
     background-color: rgb(209, 214, 213);
 }
-
+h1, h3{
+  text-align: center;
+}
 /* Simple CSS3 Fade-in-down Animation */
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
